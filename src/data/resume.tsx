@@ -139,7 +139,7 @@ export const DATA = {
       href: "https://agendalobarbero.me",
       dates: "July 2024 - Present",
       active: true,
-      description: "Description",
+      description: "",
       technologies: [
         "Next.js",
         "Typescript",
@@ -164,8 +164,7 @@ export const DATA = {
       href: "https://magicui.design",
       dates: "January 2024 - October 2024",
       active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
+      description: "",
       technologies: [
         "Next.js",
         "Typescript",
