@@ -2,32 +2,33 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Tony Villaverde",
+  name: "Antonio Villaverde Urueta",
   initials: "AV",
   url: "https://tonyvillaverde.com",
   location: "Wuhan, China",
   locationLink: "https://www.google.com/maps/place/wuhan",
   description:
-    "Software Engineer turning Entrepreneur. My work and hobby is building things and helping people.",
+    "Innovative Full Stack Developer with 2 years of experience in enhancing digital interfaces for improved user engagement.",
   summary:
-    "In beggining-2024, I transitioned from being a tour guide at an interactive museum to becoming a full-time entrepreneur in tech, developing innovative digital solutions. I'm currently pursuing a degree in Information Technology, with a focus on web development. [My journey includes creating AgendaloBarbero](/#experience), a SaaS platform for barbershop management, participating in entrepreneurial events like buildspace, and collaborating with local businesses to enhance their digital presence. [My background combines technical skills, educational experience, and a passion for solving real-world problems through technology](/#education).",
+    "Enhanced web application responsiveness, leading to increased mobile and desktop accessibility and integrated SEO strategies that amplified website visibility and sales growth. Seeking to leverage adaptability and teamwork skills to drive transformative digital solutions and align with business objectives.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Javascript",
-    "MongoDB",
-    "Node.js",
-    "Postgres",
-    "Figma",
-    "French",
-    "Chinese Basics",
+    "Strategic Communication",
+    "Rapid Prototyping",
+    "Problem-Solving",
+    "Adaptability",
+    "Interactive Educational Strategy",
+    "Cross-Cultural Collaboration",
+    "SEO Optimization",
+    "User Experience Enhancement",
+    "Entrepreneurial Technology Solutions",
+    "Team Leadership",
+    "Cross-Platform Development",
+    "English B2 Oxford Certified",
+    "French B2 DELF Certified",
+    "Mandarin Chinese basics",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "tony.villagreen@gmail.com",
     tel: "+526144577880",
@@ -36,21 +37,18 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/ImTonyS",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/antonio-villaverde-b610932a3/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/tonyvillagreen",
         icon: Icons.x,
-
         navbar: true,
       },
       Youtube: {
@@ -63,7 +61,6 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -71,83 +68,116 @@ export const DATA = {
 
   work: [
     {
+      company: "Currify",
+      href: "https://currify.me",
+      badges: [],
+      location: "Remote",
+      title: "Founder and Product Developer",
+      logoUrl: "/currify-icon.png",
+      start: "January 2025",
+      end: "Present",
+      description:
+        "Developed Currify, an AI-powered platform utilizing LangChain, OpenAI's GPT models, and intelligent conversational agents to create personalized, ATS-optimized resumes. Successfully generated 120 professional resumes, directly contributing to 14 users securing new employment. Currently integrating intelligent conversational agents and automating workflows using LangChain, significantly improving user engagement, usability, and satisfaction. Implemented effective SEO optimization strategies, leveraging organic search as the primary marketing channel to drive platform growth.",
+    },
+    {
       company: "AgendaloBarbero",
       href: "https://agendalobarbero.me",
       badges: [],
       location: "Remote",
-      title: "Software Developer",
+      title: "Founder and Lead Developer",
       logoUrl: "/agendalobarbero.png",
-      start: "July 2024",
+      start: "June 2024",
       end: "Present",
       description:
-        "Designed and developed a scalable web application tailored for barbers, streamlining appointment management through features like calendar syncing, list mapping, and secure payment integration with Stripe and MercadoPago. Leveraged modern JavaScript frameworks to build a responsive, user-friendly interface optimized for mobile and desktop devices, enhancing accessibility and client satisfaction. Implemented backend systems for user authentication and real-time updates. Achieved rapid growth, securing 7 paying subscribers within 3 months by leading targeted marketing campaigns across social media. Presented the app at startup events, receiving valuable feedback for future iterations and establishing a foundation for continued innovation.",
+        "Designed and developed a web-based appointment management app for barbers, enabling customers to book and prepay for appointments via Stripe and MercadoPago, streamlining operations and enhancing the customer experience. Programmed the entire platform using JavaScript, achieving 7 monthly paying subscribers within 3 months, delivering a high-quality, efficient solution in record time. Presented the app at Buildspace's Season 5 IRL event in San Francisco, where 1,000 startups convened to showcase their projects, refining pitching skills and gathering valuable feedback for future enhancements.",
     },
     {
       company: "BitaFitness",
       badges: [],
       href: "https://bitafitness.com",
-      location: "Remote",
-      title: "Software Engineer",
+      location: "Chihuahua, Mexico",
+      title: "Full Stack Developer",
       logoUrl: "/bitafitness.webp",
       start: "January 2024",
       end: "October 2024",
       description:
-        "Developed a responsive web platform for BitaFitness, enhancing user accessibility on mobile and desktop devices. Integrated SEO strategies to improve online visibility, driving increased traffic and sales for the business. Collaborated with clients to gather requirements, designed functional prototypes in Figma, and ensured seamless alignment with user needs and business objectives.",
+        "Developed a responsive web application for BitaFitness, the largest gym in Chihuahua, optimizing accessibility and user experience on both mobile and desktop devices.",
     },
     {
       company: "Museo Semilla Interactivo",
       badges: [],
       href: "https://www.instagram.com/semilla.museo/",
-      location: "Remote",
+      location: "Chihuahua, Mexico",
       title: "Multicultural Audience Engagement Strategist",
       logoUrl: "/semillamuseo.jpg",
       start: "July 2021",
-      end: "Decembre 2023",
+      end: "December 2023",
       description:
-        "Led interactive educational experiences for groups of up to 100 people at Museo Semilla Interactivo, utilizing exceptional communication and presentation skills. Developed engaging activities tailored to diverse audiences, fostering participation and creating impactful learning moments through innovative and dynamic strategies",
+        "Expertly managing and engaging audiences of over 100 people across diverse age groups, demonstrating exceptional communication and presentation skills. Developing and coordinating team dynamics, training personnel, and creating interactive educational experiences that enhance learning and audience participation.",
     },
   ],
   education: [
     {
       school: "Buildspace",
       href: "https://buildspace.so",
-      degree: "s5",
+      degree: "s5 Participant",
       logoUrl: "/buildspace.jpg",
-      start: "2023",
+      start: "2024",
       end: "2024",
     },
     {
       school: "Universidad Tecnológica de Chihuahua",
       href: "https://utch.edu.mx",
-      degree: "Bachelor's Degree of Information Technology (IT)",
+      degree: "Information Technology (IT) with Minor in Web Development",
       logoUrl: "/utch.jpeg",
       start: "2022",
-      end: "2026",
+      end: "Present",
     },
     {
       school: "Huazhong University of Science and Technology",
       href: "https://english.hust.edu.cn/",
-      degree: "Mandarin Chinese Studies in Wuhan, China",
+      degree: "Mandarin Chinese Studies",
       logoUrl: "/hust.jpeg",
-      start: "2024",
-      end: "2025",
+      start: "August 2024",
+      end: "February 2025",
     },
   ],
   projects: [
     {
-      title: "AgendaloBarbero",
-      href: "https://agendalobarbero.me",
-      dates: "July 2024 - Present",
+      title: "Currify",
+      href: "https://currify.me",
+      dates: "January 2025 - Present",
       active: true,
-      description: "",
+      description: "AI-powered resume builder using LangChain and GPT",
       technologies: [
         "Next.js",
-        "Typescript",
+        "LangChain",
+        "OpenAI",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://currify.me",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/currify.png",
+    },
+    {
+      title: "AgendaloBarbero",
+      href: "https://agendalobarbero.me",
+      dates: "June 2024 - Present",
+      active: true,
+      description: "Barbershop appointment management platform",
+      technologies: [
+        "Next.js",
+        "TypeScript",
         "MongoDB",
         "TailwindCSS",
         "Stripe",
         "MercadoPago",
-        "Shadcn UI",
       ],
       links: [
         {
@@ -157,417 +187,27 @@ export const DATA = {
         },
       ],
       image: "/agendalobarbero.jpeg",
-      video: "",
     },
     {
-      title: "BitaFitness Web",
-      href: "https://magicui.design",
-      dates: "January 2024 - October 2024",
-      active: true,
-      description: "",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "SEO",
-      ],
+      title: "NASA Space Apps Chihuahua",
+      href: "https://www.spaceappschallenge.org/2023/locations/chihuahua/",
+      dates: "Sept 2022 - Oct 2024",
+      active: false,
+      description: "Staff Member organizing local NASA hackathon",
+      technologies: [],
       links: [
         {
           type: "Website",
-          href: "https://bitafitness.vercel.app/",
+          href: "https://www.spaceappschallenge.org/2023/locations/chihuahua/",
           icon: <Icons.globe className="size-3" />,
         },
-      ],
-      image: "",
-      video: "/bitafitnes.mp4",
-    },
-  ],
-  hackathons: [
-    {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
-    },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-      links: [
         {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          type: "Instagram",
+          href: "https://www.instagram.com/spaceappscuu/",
+          icon: <Icons.instagram className="size-3" />,
         },
       ],
-    },
-    {
-      title: "HackDavis",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
-    {
-      title: "ETH Waterloo",
-      dates: "October 13th - 15th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-      ],
-    },
-    {
-      title: "Hack The North",
-      dates: "September 15th - 17th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
-        },
-      ],
-    },
-    {
-      title: "Hack The 6ix",
-      dates: "August 26th - 27th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
-        },
-      ],
-    },
-    {
-      title: "Stupid Hack Toronto",
-      dates: "July 23rd, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a chrome extension which tracks which facebook profiles you have visited and immediately texts your girlfriend if you visited another girls page.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/stupid-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/nsagirlfriend/nsagirlfriend",
-        },
-      ],
-    },
-    {
-      title: "Global AI Hackathon - Toronto",
-      dates: "June 23rd - 25th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow](https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st place prize at the Global AI Hackathon - Toronto and was also invited to demo at [NextAI Canada](https://www.nextcanada.com/next-ai).",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/global-ai-hackathon.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/TinySamosas/",
-        },
-      ],
-    },
-    {
-      title: "McGill AI for Social Innovation Hackathon",
-      dates: "June 17th - 18th, 2017",
-      location: "Montreal, Quebec",
-      description:
-        "Developed realtime facial microexpression analyzer using AI",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/ai-for-social-good.jpg",
-      links: [],
-    },
-    {
-      title: "Open Source Circular Economy Days Hackathon",
-      dates: "June 10th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a custom admin interface for food waste startup <a href='http://genecis.co/'>Genecis</a> to manage their data and provide analytics.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/open-source-circular-economy-days.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/genecis",
-        },
-      ],
-    },
-    {
-      title: "Make School's Student App Competition 2017",
-      dates: "May 19th - 21st, 2017",
-      location: "International",
-      description: "Improved PocketDoc and submitted to online competition",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/make-school-hackathon.png",
-      win: "Top 10 Finalist | Honourable Mention",
-      links: [
-        {
-          title: "Medium Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
-        },
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
-    },
-    {
-      title: "HackMining",
-      dates: "May 12th - 14th, 2017",
-      location: "Toronto, Ontario",
-      description: "Developed neural network to optimize a mining process",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-mining.png",
-      links: [],
-    },
-    {
-      title: "Waterloo Equithon",
-      dates: "May 5th - 7th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/waterloo-equithon.png",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
-    },
-    {
-      title: "SpaceApps Waterloo",
-      dates: "April 28th - 30th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Earthwatch, a web application which allows users in a plane to virtually see important points of interest about the world below them. They can even choose to fly away from their route and then fly back if they choose. Special thanks to CesiumJS for providing open source world and plane models.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/space-apps.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/earthwatch",
-        },
-      ],
-    },
-    {
-      title: "MHacks 9",
-      dates: "March 24th - 26th, 2017",
-      location: "Ann Arbor, Michigan",
-      description:
-        "Developed Super Graphic Air Traffic, a VR website made to introduce people to the world of air traffic controlling. This project was built completely using THREE.js as well as a node backend server.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/mhacks-9.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/threejs-planes",
-        },
-      ],
-    },
-    {
-      title: "StartHacks I",
-      dates: "March 4th - 5th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-      win: "1st Place Winner",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-ionic",
-        },
-        {
-          title: "Source (Server)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-rails",
-        },
-      ],
-    },
-    {
-      title: "QHacks II",
-      dates: "February 3rd - 5th, 2017",
-      location: "Kingston, Ontario",
-      description:
-        "Developed a mobile game which enables city-wide manhunt with random lobbies",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/qhacks.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/human-huntr-react-native",
-        },
-        {
-          title: "Source (API)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/human-huntr-rails",
-        },
-      ],
-    },
-    {
-      title: "Terrible Hacks V",
-      dates: "November 26th, 2016",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mock of Windows 11 with interesting notifications and functionality",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
-        },
-      ],
-    },
-    {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      location: "Kingston, Ontario",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
-        },
-      ],
+      image: "/spaceapps-cuu.png",
     },
   ],
 } as const;
