@@ -5,12 +5,12 @@ export const DATA = {
   name: "Antonio Villaverde Urueta",
   initials: "AV",
   url: "https://tonyvillaverde.com",
-  location: "Wuhan, China",
-  locationLink: "https://www.google.com/maps/place/wuhan",
+  location: "Tainan, Taiwan",
+  locationLink: "https://www.google.com/maps/place/tainan",
   description:
-    "Innovative Full Stack Developer with 2 years of experience in enhancing digital interfaces for improved user engagement.",
+    "Founder building hardware and AI products. Currently in Taiwan designing my second device.",
   summary:
-    "Enhanced web application responsiveness, leading to increased mobile and desktop accessibility and integrated SEO strategies that amplified website visibility and sales growth. Seeking to leverage adaptability and teamwork skills to drive transformative digital solutions and align with business objectives.",
+    "I build products end to end: code, hardware and sales. I pre-sold and delivered 25 units of Tasky, my AI Pomodoro timer, with no outside funding, and grew AgendaloBarbero to 20 paying barbershops. Right now I'm in Taiwan with the TALENT Program, designing my second device and quoting it with factories.",
   avatarUrl: "/me.jpg",
   skills: [
     "Strategic Communication",
@@ -41,7 +41,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/antonio-villaverde-b610932a3/",
+        url: "https://www.linkedin.com/in/tonyvillaverde",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -68,6 +68,29 @@ export const DATA = {
 
   work: [
     {
+      company: "Tasky",
+      href: "https://pomotasky.com",
+      badges: [],
+      location: "Chihuahua, Mexico / Tainan, Taiwan",
+      title: "Founder",
+      logoUrl: "/tasky.png",
+      start: "June 2025",
+      end: "Present",
+      description:
+        "Built a hardware AI Pomodoro timer and its iOS app from scratch. Pre-sold 25 units with no outside funding, then manufactured and delivered all of them. Now designing my second device, a voice-note companion, with PCBs I route using AI agents.",
+    },
+    {
+      company: "Remotto AI",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Co-founder & CPO",
+      logoUrl: "",
+      start: "August 2025",
+      end: "May 2026",
+      description: "Co-founded an AI startup and led product.",
+    },
+    {
       company: "Currify",
       href: "https://currify.me",
       badges: [],
@@ -75,9 +98,9 @@ export const DATA = {
       title: "Founder and Product Developer",
       logoUrl: "/currify-icon.png",
       start: "January 2025",
-      end: "Present",
+      end: "August 2025",
       description:
-        "Developed Currify, an AI-powered platform utilizing LangChain, OpenAI's GPT models, and intelligent conversational agents to create personalized, ATS-optimized resumes. Successfully generated 120 professional resumes, directly contributing to 14 users securing new employment. Currently integrating intelligent conversational agents and automating workflows using LangChain, significantly improving user engagement, usability, and satisfaction. Implemented effective SEO optimization strategies, leveraging organic search as the primary marketing channel to drive platform growth.",
+        "Developed Currify, an AI-powered platform utilizing LangChain, OpenAI's GPT models, and intelligent conversational agents to create personalized, ATS-optimized resumes. Successfully generated 120 professional resumes, directly contributing to 14 users securing new employment. Currify became part of Remotto AI in 2025. Implemented effective SEO optimization strategies, leveraging organic search as the primary marketing channel to drive platform growth.",
     },
     {
       company: "AgendaloBarbero",
@@ -87,9 +110,9 @@ export const DATA = {
       title: "Founder and Lead Developer",
       logoUrl: "/agendalobarbero.png",
       start: "June 2024",
-      end: "Present",
+      end: "February 2025",
       description:
-        "Designed and developed a web-based appointment management app for barbers, enabling customers to book and prepay for appointments via Stripe and MercadoPago, streamlining operations and enhancing the customer experience. Programmed the entire platform using JavaScript, achieving 7 monthly paying subscribers within 3 months, delivering a high-quality, efficient solution in record time. Presented the app at Buildspace's Season 5 IRL event in San Francisco, where 1,000 startups convened to showcase their projects, refining pitching skills and gathering valuable feedback for future enhancements.",
+        "Designed and developed a web-based appointment management app for barbers, enabling customers to book and prepay for appointments via Stripe and MercadoPago, streamlining operations and enhancing the customer experience. Programmed the entire platform using JavaScript, growing to 20 paying barbershops, delivering a high-quality, efficient solution in record time. Presented the app at Buildspace's Season 5 IRL event in San Francisco, where 1,000 startups convened to showcase their projects, refining pitching skills and gathering valuable feedback for future enhancements.",
     },
     {
       company: "BitaFitness",
@@ -118,6 +141,14 @@ export const DATA = {
   ],
   education: [
     {
+      school: "Southern Taiwan University of Science and Technology",
+      href: "https://www.stust.edu.tw",
+      degree: "TALENT Program, AI & Automation (scholarship, 1 of 15)",
+      logoUrl: "",
+      start: "September 2026",
+      end: "January 2027",
+    },
+    {
       school: "Buildspace",
       href: "https://buildspace.so",
       degree: "s5 Participant",
@@ -144,10 +175,32 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Tasky",
+      href: "https://pomotasky.com",
+      dates: "June 2025 - Present",
+      active: true,
+      description: "Hardware AI Pomodoro timer + iOS app. 25 units pre-sold and delivered.",
+      technologies: [
+        "ESP32-C3",
+        "BLE",
+        "Expo",
+        "React Native",
+        "Supabase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pomotasky.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/tasky.png",
+    },
+    {
       title: "Currify",
       href: "https://currify.me",
-      dates: "January 2025 - Present",
-      active: true,
+      dates: "January 2025 - August 2025",
+      active: false,
       description: "AI-powered resume builder using LangChain and GPT",
       technologies: [
         "Next.js",
@@ -168,8 +221,8 @@ export const DATA = {
     {
       title: "AgendaloBarbero",
       href: "https://agendalobarbero.me",
-      dates: "June 2024 - Present",
-      active: true,
+      dates: "June 2024 - February 2025",
+      active: false,
       description: "Barbershop appointment management platform",
       technologies: [
         "Next.js",
