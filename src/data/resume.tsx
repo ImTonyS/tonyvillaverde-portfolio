@@ -175,6 +175,28 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "clavederastreo.com",
+      href: "https://clavederastreo.com",
+      dates: "October 2026 - Present",
+      active: true,
+      description: "Free tool to check if a Mexican bank transfer (SPEI) is real: snap the receipt, AI reads it, and it's verified against Banxico's official records.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Claude API",
+        "Banxico CEP",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://clavederastreo.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/clavederastreo.png",
+    },
+    {
       title: "Tasky",
       href: "https://pomotasky.com",
       dates: "June 2025 - Present",
